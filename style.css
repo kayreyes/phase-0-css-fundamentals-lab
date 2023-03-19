@@ -1,5 +1,30 @@
 body {
+  text-align: center;
   width: 100%;
   height: 100%;
   margin: 0;
+}
+h1 {
+  text-align: center;
+}
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: lightgrey;
+}
+section#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin-inline: 17%;
+}
+
+section#details {
+  background: red;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section#details > div {
+  text-align: center;
 }
